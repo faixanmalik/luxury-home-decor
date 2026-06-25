@@ -27,16 +27,16 @@ export default function Hero({ onShopNowClick, onOpenConsultation }: HeroProps) 
     >
       {/* Background Image Container */}
       <div className="absolute inset-0 z-0">
-        {/* Video Player Embed */}
+        {/* Video Player Embed with 0.75x speed */}
         <iframe
-          src="https://player.cloudinary.com/embed/?cloud_name=djh0gmshm&public_id=Meta_AI_2_depgs9&autoplay=true&loop=true&muted=true"
+          src="https://player.cloudinary.com/embed/?cloud_name=djh0gmshm&public_id=Meta_AI_2_depgs9&autoplay=true&loop=true&muted=true&playback_rate=0.50"
           className="w-full h-full object-cover"
           allow="autoplay; fullscreen"
           frameBorder="0"
           title="Luxury Background Video"
         />
 
-        {/* Gradients overlays jo pehle se the */}
+        {/* Gradients overlays */}
         <div className="absolute inset-0 bg-gradient-to-r from-[#050505] via-[#050505]/95 md:via-[#050505]/80 to-transparent z-10" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#0b0b0b] via-transparent to-black/50 z-10" />
       </div>
