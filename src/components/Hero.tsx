@@ -29,16 +29,17 @@ export default function Hero({ onShopNowClick, onOpenConsultation }: HeroProps) 
         <img
           src={heroImgUrl}
           alt="Luxury Black and Gold Interior"
-          className="w-full h-full object-cover object-right sm:object-center transform scale-105 animate-pulse duration-[10s]"
+          // className="w-full h-full object-cover object-right sm:object-center transform scale-105 animate-pulse duration-[10s]"
+          className="w-full h-full object-cover object-right sm:object-center"
           referrerPolicy="no-referrer"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#050505] via-[#050505]/95 md:via-[#050505]/80 to-transparent z-10" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0b0b0b] via-transparent to-black/50 z-10" />
+        {/* <div className="absolute inset-0 bg-gradient-to-r from-[#050505] via-[#050505]/95 md:via-[#050505]/80 to-transparent z-10" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0b0b0b] via-transparent to-black/50 z-10" /> */}
       </div>
       
 
       {/* Realistic Interactive "Raining Gold" particles */}
-      {/* <div className="absolute inset-0 pointer-events-none z-20 overflow-hidden">
+      <div className="absolute inset-0 pointer-events-none z-20 overflow-hidden">
         {rainDrops.map((drop) => (
           <div
             key={drop.id}
@@ -54,7 +55,7 @@ export default function Hero({ onShopNowClick, onOpenConsultation }: HeroProps) 
             }}
           />
         ))}
-      </div> */}
+      </div>
 
       {/* CSS Animation injection */}
       <style>{`
