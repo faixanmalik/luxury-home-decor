@@ -1,0 +1,6 @@
+{
+  "name": "Luxury Home Decor",
+  "description": "A premium, elegant, black and gold themed home decor website featuring interactive catalogs, custom room visualizers, customizable premium products, and private interior designer consultation bookings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
