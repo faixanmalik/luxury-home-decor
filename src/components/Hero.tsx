@@ -27,16 +27,19 @@ export default function Hero({ onShopNowClick, onOpenConsultation }: HeroProps) 
     >
       {/* Background Image Container */}
       <div className="absolute inset-0 z-0">
-        <img
-          src={heroImgUrl}
-          alt="Luxury Black and Gold Interior"
-          // className="w-full h-full object-cover object-right sm:object-center transform scale-105 animate-pulse duration-[10s]"
-          className="w-full h-full object-cover object-right sm:object-center"
-          referrerPolicy="no-referrer"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#050505] via-[#050505]/95 md:via-[#050505]/80 to-transparent z-10" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0b0b0b] via-transparent to-black/50 z-10" />
-      </div>
+  {/* Video Player Embed */}
+  <iframe
+    src="https://player.cloudinary.com/embed/?cloud_name=djh0gmshm&public_id=Meta_AI_2_depgs9&autoplay=true&loop=true&muted=true"
+    className="w-full h-full object-cover"
+    allow="autoplay; fullscreen"
+    frameBorder="0"
+    title="Luxury Background Video"
+  />
+
+  {/* Gradients overlays jo pehle se the */}
+  <div className="absolute inset-0 bg-gradient-to-r from-[#050505] via-[#050505]/95 md:via-[#050505]/80 to-transparent z-10" />
+  <div className="absolute inset-0 bg-gradient-to-t from-[#0b0b0b] via-transparent to-black/50 z-10" />
+</div>
       
 
       {/* Realistic Interactive "Raining Gold" particles */}
